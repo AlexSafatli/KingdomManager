@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C83848331A54741D00429DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C83848321A54741D00429DD5 /* main.m */; };
+		C83848361A54741D00429DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C83848351A54741D00429DD5 /* AppDelegate.m */; };
+		C83848391A54741D00429DD5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83848381A54741D00429DD5 /* MasterViewController.m */; };
+		C838483C1A54741D00429DD5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C838483B1A54741D00429DD5 /* DetailViewController.m */; };
+		C838483F1A54741D00429DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C838483D1A54741D00429DD5 /* Main.storyboard */; };
+		C83848411A54741D00429DD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83848401A54741D00429DD5 /* Images.xcassets */; };
+		C83848441A54741D00429DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83848421A54741D00429DD5 /* LaunchScreen.xib */; };
+		C83848501A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C838484A1A54741D00429DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83848251A54741D00429DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C838482C1A54741D00429DD5;
+			remoteInfo = "Pathfinder Kingdom Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C838482D1A54741D00429DD5 /* Pathfinder Kingdom Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pathfinder Kingdom Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83848311A54741D00429DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83848321A54741D00429DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C83848341A54741D00429DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C83848351A54741D00429DD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C83848371A54741D00429DD5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C83848381A54741D00429DD5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C838483A1A54741D00429DD5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C838483B1A54741D00429DD5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C838483E1A54741D00429DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C83848401A54741D00429DD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C83848431A54741D00429DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C83848491A54741D00429DD5 /* Pathfinder Kingdom ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pathfinder Kingdom ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C838484E1A54741D00429DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pathfinder_Kingdom_ManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C838482A1A54741D00429DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83848461A54741D00429DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C83848241A54741D00429DD5 = {
+			isa = PBXGroup;
+			children = (
+				C838482F1A54741D00429DD5 /* Pathfinder Kingdom Manager */,
+				C838484C1A54741D00429DD5 /* Pathfinder Kingdom ManagerTests */,
+				C838482E1A54741D00429DD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C838482E1A54741D00429DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C838482D1A54741D00429DD5 /* Pathfinder Kingdom Manager.app */,
+				C83848491A54741D00429DD5 /* Pathfinder Kingdom ManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C838482F1A54741D00429DD5 /* Pathfinder Kingdom Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C83848341A54741D00429DD5 /* AppDelegate.h */,
+				C83848351A54741D00429DD5 /* AppDelegate.m */,
+				C83848371A54741D00429DD5 /* MasterViewController.h */,
+				C83848381A54741D00429DD5 /* MasterViewController.m */,
+				C838483A1A54741D00429DD5 /* DetailViewController.h */,
+				C838483B1A54741D00429DD5 /* DetailViewController.m */,
+				C838483D1A54741D00429DD5 /* Main.storyboard */,
+				C83848401A54741D00429DD5 /* Images.xcassets */,
+				C83848421A54741D00429DD5 /* LaunchScreen.xib */,
+				C83848301A54741D00429DD5 /* Supporting Files */,
+			);
+			path = "Pathfinder Kingdom Manager";
+			sourceTree = "<group>";
+		};
+		C83848301A54741D00429DD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C83848311A54741D00429DD5 /* Info.plist */,
+				C83848321A54741D00429DD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C838484C1A54741D00429DD5 /* Pathfinder Kingdom ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */,
+				C838484D1A54741D00429DD5 /* Supporting Files */,
+			);
+			path = "Pathfinder Kingdom ManagerTests";
+			sourceTree = "<group>";
+		};
+		C838484D1A54741D00429DD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C838484E1A54741D00429DD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C838482C1A54741D00429DD5 /* Pathfinder Kingdom Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83848531A54741D00429DD5 /* Build configuration list for PBXNativeTarget "Pathfinder Kingdom Manager" */;
+			buildPhases = (
+				C83848291A54741D00429DD5 /* Sources */,
+				C838482A1A54741D00429DD5 /* Frameworks */,
+				C838482B1A54741D00429DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pathfinder Kingdom Manager";
+			productName = "Pathfinder Kingdom Manager";
+			productReference = C838482D1A54741D00429DD5 /* Pathfinder Kingdom Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C83848481A54741D00429DD5 /* Pathfinder Kingdom ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83848561A54741D00429DD5 /* Build configuration list for PBXNativeTarget "Pathfinder Kingdom ManagerTests" */;
+			buildPhases = (
+				C83848451A54741D00429DD5 /* Sources */,
+				C83848461A54741D00429DD5 /* Frameworks */,
+				C83848471A54741D00429DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C838484B1A54741D00429DD5 /* PBXTargetDependency */,
+			);
+			name = "Pathfinder Kingdom ManagerTests";
+			productName = "Pathfinder Kingdom ManagerTests";
+			productReference = C83848491A54741D00429DD5 /* Pathfinder Kingdom ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83848251A54741D00429DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Natural20CriticalHit;
+				TargetAttributes = {
+					C838482C1A54741D00429DD5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C83848481A54741D00429DD5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C838482C1A54741D00429DD5;
+					};
+				};
+			};
+			buildConfigurationList = C83848281A54741D00429DD5 /* Build configuration list for PBXProject "Pathfinder Kingdom Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C83848241A54741D00429DD5;
+			productRefGroup = C838482E1A54741D00429DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C838482C1A54741D00429DD5 /* Pathfinder Kingdom Manager */,
+				C83848481A54741D00429DD5 /* Pathfinder Kingdom ManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C838482B1A54741D00429DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C838483F1A54741D00429DD5 /* Main.storyboard in Resources */,
+				C83848441A54741D00429DD5 /* LaunchScreen.xib in Resources */,
+				C83848411A54741D00429DD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83848471A54741D00429DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83848291A54741D00429DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83848361A54741D00429DD5 /* AppDelegate.m in Sources */,
+				C83848391A54741D00429DD5 /* MasterViewController.m in Sources */,
+				C83848331A54741D00429DD5 /* main.m in Sources */,
+				C838483C1A54741D00429DD5 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83848451A54741D00429DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83848501A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C838484B1A54741D00429DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C838482C1A54741D00429DD5 /* Pathfinder Kingdom Manager */;
+			targetProxy = C838484A1A54741D00429DD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C838483D1A54741D00429DD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C838483E1A54741D00429DD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C83848421A54741D00429DD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83848431A54741D00429DD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C83848511A54741D00429DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83848521A54741D00429DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C83848541A54741D00429DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pathfinder Kingdom Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C83848551A54741D00429DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pathfinder Kingdom Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C83848571A54741D00429DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pathfinder Kingdom ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathfinder Kingdom Manager.app/Pathfinder Kingdom Manager";
+			};
+			name = Debug;
+		};
+		C83848581A54741D00429DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pathfinder Kingdom ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathfinder Kingdom Manager.app/Pathfinder Kingdom Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83848281A54741D00429DD5 /* Build configuration list for PBXProject "Pathfinder Kingdom Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83848511A54741D00429DD5 /* Debug */,
+				C83848521A54741D00429DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83848531A54741D00429DD5 /* Build configuration list for PBXNativeTarget "Pathfinder Kingdom Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83848541A54741D00429DD5 /* Debug */,
+				C83848551A54741D00429DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C83848561A54741D00429DD5 /* Build configuration list for PBXNativeTarget "Pathfinder Kingdom ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83848571A54741D00429DD5 /* Debug */,
+				C83848581A54741D00429DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C83848251A54741D00429DD5 /* Project object */;
+}
