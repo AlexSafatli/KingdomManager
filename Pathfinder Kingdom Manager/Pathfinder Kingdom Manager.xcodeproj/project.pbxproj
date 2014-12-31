@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		C83848331A54741D00429DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C83848321A54741D00429DD5 /* main.m */; };
 		C83848361A54741D00429DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C83848351A54741D00429DD5 /* AppDelegate.m */; };
-		C83848391A54741D00429DD5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83848381A54741D00429DD5 /* MasterViewController.m */; };
 		C838483C1A54741D00429DD5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C838483B1A54741D00429DD5 /* DetailViewController.m */; };
 		C838483F1A54741D00429DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C838483D1A54741D00429DD5 /* Main.storyboard */; };
 		C83848411A54741D00429DD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83848401A54741D00429DD5 /* Images.xcassets */; };
 		C83848441A54741D00429DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83848421A54741D00429DD5 /* LaunchScreen.xib */; };
 		C83848501A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */; };
+		C8EA1F291A54852000E788C9 /* SettlementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA1F281A54852000E788C9 /* SettlementsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,6 @@
 		C83848321A54741D00429DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C83848341A54741D00429DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C83848351A54741D00429DD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C83848371A54741D00429DD5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C83848381A54741D00429DD5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		C838483A1A54741D00429DD5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C838483B1A54741D00429DD5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C838483E1A54741D00429DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +41,8 @@
 		C83848491A54741D00429DD5 /* Pathfinder Kingdom ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pathfinder Kingdom ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C838484E1A54741D00429DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pathfinder_Kingdom_ManagerTests.m; sourceTree = "<group>"; };
+		C8EA1F271A54852000E788C9 /* SettlementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettlementsViewController.h; sourceTree = "<group>"; };
+		C8EA1F281A54852000E788C9 /* SettlementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettlementsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 			children = (
 				C83848341A54741D00429DD5 /* AppDelegate.h */,
 				C83848351A54741D00429DD5 /* AppDelegate.m */,
-				C83848371A54741D00429DD5 /* MasterViewController.h */,
-				C83848381A54741D00429DD5 /* MasterViewController.m */,
+				C8EA1F271A54852000E788C9 /* SettlementsViewController.h */,
+				C8EA1F281A54852000E788C9 /* SettlementsViewController.m */,
 				C838483A1A54741D00429DD5 /* DetailViewController.h */,
 				C838483B1A54741D00429DD5 /* DetailViewController.m */,
 				C838483D1A54741D00429DD5 /* Main.storyboard */,
@@ -225,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83848361A54741D00429DD5 /* AppDelegate.m in Sources */,
-				C83848391A54741D00429DD5 /* MasterViewController.m in Sources */,
+				C8EA1F291A54852000E788C9 /* SettlementsViewController.m in Sources */,
 				C83848331A54741D00429DD5 /* main.m in Sources */,
 				C838483C1A54741D00429DD5 /* DetailViewController.m in Sources */,
 			);
@@ -420,6 +420,7 @@
 				C83848551A54741D00429DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C83848561A54741D00429DD5 /* Build configuration list for PBXNativeTarget "Pathfinder Kingdom ManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				C83848581A54741D00429DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
