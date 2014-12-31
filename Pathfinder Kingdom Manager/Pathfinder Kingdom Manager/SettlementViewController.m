@@ -1,19 +1,20 @@
 //
-//  SettlementsViewController.m
+//  SettlementViewController.m
 //  Pathfinder Kingdom Manager
 //
 //  Created by Alex Safatli on 2014-12-31.
 //  Copyright (c) 2014 Natural20CriticalHit. All rights reserved.
 //
 
-#import "SettlementsViewController.h"
+#import "SettlementViewController.h"
 
-@interface SettlementsViewController ()
+
+@interface SettlementViewController ()
 
 @property NSMutableArray *objects;
 @end
 
-@implementation SettlementsViewController
+@implementation SettlementViewController
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -30,7 +31,7 @@
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
-    self.detailViewController = (SettlementViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.detailViewController = (BuildingViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,21 +51,13 @@
 #pragma mark - Segues
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    if ([[segue identifier] isEqualToString:@"showSettlement"]) {
-        
-        // Get current item.
+    if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = self.objects[indexPath.row];
-        
-        // Get the view controller for the segue.
-        SettlementViewController *controller = (SettlementViewController *)[[segue destinationViewController] topViewController];
-        [controller setDetailItem:object];
+        BuildingViewController *controller = (BuildingViewController *)[[segue destinationViewController] topViewController];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         controller.navigationItem.leftItemsSupplementBackButton = YES;
-        
     }
-    
 }
 
 #pragma mark - Table View
@@ -79,6 +72,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    
     NSDate *object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
     return cell;

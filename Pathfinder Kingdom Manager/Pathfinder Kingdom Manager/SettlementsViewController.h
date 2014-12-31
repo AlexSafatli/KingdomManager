@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SettlementViewController.h"
 
 @class SettlementViewController;
 

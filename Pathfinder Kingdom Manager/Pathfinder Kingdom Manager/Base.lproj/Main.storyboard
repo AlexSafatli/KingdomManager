@@ -64,7 +64,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showDetail" id="6S0-TO-JiA"/>
+                                    <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showSettlement" id="6S0-TO-JiA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -122,7 +122,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Settlement" id="4sA-UM-K1Z"/>
                     <connections>
-                        <segue destination="1BF-f2-h9r" kind="showDetail" id="wdS-DQ-Oct"/>
+                        <segue destination="1BF-f2-h9r" kind="showDetail" identifier="showBuildings" id="wdS-DQ-Oct"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BXf-ZK-Gdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -197,7 +197,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="6S0-TO-JiA"/>
         <segue reference="wdS-DQ-Oct"/>
-        <segue reference="Tll-UG-LXB"/>
     </inferredMetricsTieBreakers>
 </document>
