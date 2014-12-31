@@ -40,7 +40,7 @@
         <!--Settlements Table-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
-                <tableViewController title="Settlements Table" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" sceneMemberID="viewController">
+                <tableViewController title="Settlements Table" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="SettlementsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="r7i-6Z-zg0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,7 +102,7 @@
         <!--Settlements Detail-->
         <scene sceneID="Za9-Xo-ztV">
             <objects>
-                <tableViewController title="Settlements Detail" id="yeT-sB-bIj" sceneMemberID="viewController">
+                <tableViewController title="Settlements Detail" id="yeT-sB-bIj" customClass="SettlementViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nPt-5M-NGr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,7 +132,7 @@
         <!--Detail-->
         <scene sceneID="kRx-uW-VJx">
             <objects>
-                <viewController title="Detail" id="Uhn-rF-PVM" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController title="Detail" id="Uhn-rF-PVM" customClass="BuildingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CYV-dC-4wi"/>
                         <viewControllerLayoutGuide type="bottom" id="C6A-z4-wWJ"/>
