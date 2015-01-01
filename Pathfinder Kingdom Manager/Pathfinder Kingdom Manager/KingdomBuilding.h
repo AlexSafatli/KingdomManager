@@ -16,4 +16,6 @@
 @property (atomic) NSInteger numberPerSettlement;
 @property (atomic) NSInteger numberBuildingPoints;
 
+- initWithName:(NSString*)text freq:(NSNumber*)f upgradeFrom:(KingdomBuilding*)building lots:(NSInteger)n per:(NSInteger)p bp:(NSInteger)b;
+
 @end

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
+#import "KingdomBuilding.h"
 
 @class KingdomBuilding;
 @class KingdomProfession;
@@ -22,7 +23,7 @@
 @property (atomic) NSMutableDictionary *eventData;
 
 + (KingdomDatabase*) database;
-- (void) data;
+- (void) read;
 - (void) clear;
 
 @end
