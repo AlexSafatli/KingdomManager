@@ -13,6 +13,11 @@
 		C83848411A54741D00429DD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83848401A54741D00429DD5 /* Images.xcassets */; };
 		C83848441A54741D00429DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83848421A54741D00429DD5 /* LaunchScreen.xib */; };
 		C83848501A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */; };
+		C864DF3D1A558C8900E07E77 /* KingdomDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C864DF3C1A558C8900E07E77 /* KingdomDatabase.m */; };
+		C864DF3F1A558CB100E07E77 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C864DF3E1A558CB100E07E77 /* libsqlite3.dylib */; };
+		C864DF411A558CB700E07E77 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C864DF401A558CB700E07E77 /* libsqlite3.0.dylib */; };
+		C864DF441A55DB1800E07E77 /* KingdomAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = C864DF431A55DB1800E07E77 /* KingdomAsset.m */; };
+		C864DF471A55DB7D00E07E77 /* KingdomBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = C864DF461A55DB7D00E07E77 /* KingdomBuilding.m */; };
 		C8EA1F291A54852000E788C9 /* SettlementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA1F281A54852000E788C9 /* SettlementsViewController.m */; };
 		C8F4ACD71A548A1600DC7F86 /* SettlementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4ACD61A548A1600DC7F86 /* SettlementViewController.m */; };
 		C8F4ACDA1A548CA100DC7F86 /* BuildingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4ACD91A548CA100DC7F86 /* BuildingViewController.m */; };
@@ -40,6 +45,14 @@
 		C83848491A54741D00429DD5 /* Pathfinder Kingdom ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pathfinder Kingdom ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C838484E1A54741D00429DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C838484F1A54741D00429DD5 /* Pathfinder_Kingdom_ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pathfinder_Kingdom_ManagerTests.m; sourceTree = "<group>"; };
+		C864DF3B1A558C8900E07E77 /* KingdomDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingdomDatabase.h; sourceTree = "<group>"; };
+		C864DF3C1A558C8900E07E77 /* KingdomDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingdomDatabase.m; sourceTree = "<group>"; };
+		C864DF3E1A558CB100E07E77 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C864DF401A558CB700E07E77 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C864DF421A55DB1800E07E77 /* KingdomAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingdomAsset.h; sourceTree = "<group>"; };
+		C864DF431A55DB1800E07E77 /* KingdomAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingdomAsset.m; sourceTree = "<group>"; };
+		C864DF451A55DB7D00E07E77 /* KingdomBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingdomBuilding.h; sourceTree = "<group>"; };
+		C864DF461A55DB7D00E07E77 /* KingdomBuilding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingdomBuilding.m; sourceTree = "<group>"; };
 		C8EA1F271A54852000E788C9 /* SettlementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettlementsViewController.h; sourceTree = "<group>"; };
 		C8EA1F281A54852000E788C9 /* SettlementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettlementsViewController.m; sourceTree = "<group>"; };
 		C8F4ACD51A548A1600DC7F86 /* SettlementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettlementViewController.h; sourceTree = "<group>"; };
@@ -53,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C864DF411A558CB700E07E77 /* libsqlite3.0.dylib in Frameworks */,
+				C864DF3F1A558CB100E07E77 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,8 @@
 		C83848241A54741D00429DD5 = {
 			isa = PBXGroup;
 			children = (
+				C864DF401A558CB700E07E77 /* libsqlite3.0.dylib */,
+				C864DF3E1A558CB100E07E77 /* libsqlite3.dylib */,
 				C838482F1A54741D00429DD5 /* Pathfinder Kingdom Manager */,
 				C838484C1A54741D00429DD5 /* Pathfinder Kingdom ManagerTests */,
 				C838482E1A54741D00429DD5 /* Products */,
@@ -89,6 +106,12 @@
 			children = (
 				C83848341A54741D00429DD5 /* AppDelegate.h */,
 				C83848351A54741D00429DD5 /* AppDelegate.m */,
+				C864DF421A55DB1800E07E77 /* KingdomAsset.h */,
+				C864DF431A55DB1800E07E77 /* KingdomAsset.m */,
+				C864DF451A55DB7D00E07E77 /* KingdomBuilding.h */,
+				C864DF461A55DB7D00E07E77 /* KingdomBuilding.m */,
+				C864DF3B1A558C8900E07E77 /* KingdomDatabase.h */,
+				C864DF3C1A558C8900E07E77 /* KingdomDatabase.m */,
 				C8EA1F271A54852000E788C9 /* SettlementsViewController.h */,
 				C8EA1F281A54852000E788C9 /* SettlementsViewController.m */,
 				C8F4ACD51A548A1600DC7F86 /* SettlementViewController.h */,
@@ -232,7 +255,10 @@
 				C83848361A54741D00429DD5 /* AppDelegate.m in Sources */,
 				C8EA1F291A54852000E788C9 /* SettlementsViewController.m in Sources */,
 				C8F4ACDA1A548CA100DC7F86 /* BuildingViewController.m in Sources */,
+				C864DF471A55DB7D00E07E77 /* KingdomBuilding.m in Sources */,
+				C864DF441A55DB1800E07E77 /* KingdomAsset.m in Sources */,
 				C8F4ACD71A548A1600DC7F86 /* SettlementViewController.m in Sources */,
+				C864DF3D1A558C8900E07E77 /* KingdomDatabase.m in Sources */,
 				C83848331A54741D00429DD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
